@@ -233,3 +233,11 @@ managed_components
 
 # pytest log
 pytest_embedded_log/
+
+#ignore junk files that get rewqritten:
+*.csv
+.data
+.pdata
+.rdata
+.reloc
+.text
